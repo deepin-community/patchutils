@@ -1,0 +1,56 @@
+/Makefile.in
+/Makefile
+/configure
+/config.status
+/config.log
+/config.h*
+/autom4te.cache
+/aclocal.m4
+/missing
+/compile
+/depcomp
+/install-sh
+/mkinstalldirs
+/INSTALL
+/stamp-h1
+.deps
+.dirstamp
+
+# Compiled objects
+*.o
+src/combinediff
+src/filterdiff
+src/flipdiff
+src/grepdiff
+src/interdiff
+src/lsdiff
+src/rediff
+src/patchview
+
+# These are generated from *.in files
+/patchutils.spec
+/scripts/dehtmldiff
+/scripts/editdiff
+/scripts/espdiff
+/scripts/fixcvsdiff
+/scripts/recountdiff
+/scripts/splitdiff
+/scripts/unwrapdiff
+
+# These are generated from the XML file.
+doc/*.1
+
+# Tests
+/test-arena
+/test-driver
+/test-suite.log
+/tests/*/run-test.log
+/tests/*/run-test.trs
+
+# Backup files
+*.bak
+*~
+*.swp
+
+# Tarballs
+patchutils-*.tar.?z*

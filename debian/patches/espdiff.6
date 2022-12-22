@@ -1,0 +1,22 @@
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -34,7 +34,7 @@ interdiff_manpage = doc/interdiff.1
+ other_manpages = doc/filterdiff.1 doc/fixcvsdiff.1 doc/rediff.1 \
+ 	doc/editdiff.1 doc/combinediff.1 doc/lsdiff.1 doc/splitdiff.1 \
+ 	doc/grepdiff.1 doc/recountdiff.1 doc/unwrapdiff.1 doc/dehtmldiff.1 \
+-	doc/flipdiff.1 doc/espdiff.1 doc/patchview.1
++	doc/flipdiff.1 doc/espdiff.6 doc/patchview.1
+ man_MANS = $(interdiff_manpage) $(other_manpages)
+ 
+ $(other_manpages): $(interdiff_manpage)
+--- a/doc/patchutils.xml
++++ b/doc/patchutils.xml
+@@ -3045,7 +3045,7 @@ will pipe patch of file #2 to vim - -R
+ 
+       <refmeta>
+ 	<refentrytitle>espdiff</refentrytitle>
+-	<manvolnum>1</manvolnum>
++	<manvolnum>6</manvolnum>
+       </refmeta>
+ 
+       <refnamediv>
